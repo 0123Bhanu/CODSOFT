@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.upHeader{
+    background-image: linear-gradient(to right,rgb(255, 204, 0),rgb(227, 165, 234),rgb(248, 69, 221));
+    color: white;
+}
+.upHeader div{
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imgDiv{
+    width: 2rem;
+    border: 1px solid white;
+}
+.imgDiv img{
+    padding-top: 0.8rem;
+}
+.contact{
+    margin-top: 0.8rem;
+    padding-top: 0.5rem;
+    margin-right: 0.7rem;
+    height: 60%;
+}
+.contact img{
+    margin-right: 0.3rem;
+}
+.consult{
+    margin-top: 0.5rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    height: 2rem;
+    font-size: 10px;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+.downHeader{
+    border-bottom: 2px solid;
+    /* position: fixed; */
+}
+.downHeader h2{
+    padding-top: 1rem;
+}
+.downHeader div{
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.downHeader ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap         ;
+}
+.downHeader ul li{
+    padding: 0.8rem;
+    padding-top: 1.5rem;
+    list-style: none;
+    margin-left: 0.8rem;
+}
+.downHeader ul li:hover{
+    background-color: yellow;
+}
+.intro{
+    height: 30rem;
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introDiv{
+    border-left: 5px solid rgb(72, 12, 88);
+    padding: 1.5rem;
+}
+
+.ad{
+    height:10rem;
+    background-image: linear-gradient(to right,rgb(255, 204, 0),rgb(227, 165, 234),rgb(248, 69, 221));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+.hd{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+}
+.hd span{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 3px;
+}
+.mb{
+    width: 250px;
+    margin-top: 50px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.mfoot{
+    background-image: url('./images/halftone_background_12.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
